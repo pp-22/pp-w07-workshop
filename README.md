@@ -6,7 +6,7 @@ We will use the [Open-Meteo weather forecast API](https://open-meteo.com/en) to 
 
 ## Task 1: Making an API request
 
-To make our first API request, we will use a new package called `requests` ([documentation](https://docs.python-requests.org/en/latest/)), which will handle the communication between your program and the weather API, to make the actual information request to the service. The package comes pre-installed with Anaconda.
+To make our first API request, we will use a new package called `requests` ([documentation](https://requests.readthedocs.io/en/latest/)), which will handle the communication between your program and the weather API, to make the actual information request to the service. The package comes pre-installed with Anaconda.
 
 The data provided by most APIs is in [JSON format](https://en.wikipedia.org/wiki/JSON), which actually looks a lot like a Python dictionary. An example request result is shown on the [front page](https://open-meteo.com/en) of the weather API -- you should recognise the `{key: value}` structure which characterises JSON and dictionaries.
 
